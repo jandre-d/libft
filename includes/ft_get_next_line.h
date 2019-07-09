@@ -6,12 +6,12 @@
 /*   By: jandre-d <jandre-d@student.codam.nl>         +#+                     */
 /*                                                   +#+                      */
 /*   Created: 2019/01/19 10:48:53 by jandre-d       #+#    #+#                */
-/*   Updated: 2019/07/09 14:05:46 by jandre-d      ########   odam.nl         */
+/*   Updated: 2019/07/09 16:50:34 by jandre-d      ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
-#ifndef GET_NEXT_LINE_H
-# define GET_NEXT_LINE_H
+#ifndef FT_GET_NEXT_LINE_H
+# define FT_GET_NEXT_LINE_H
 # define BUFF_SIZE 42
 # include <unistd.h>
 # include <stdlib.h>
