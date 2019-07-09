@@ -1,12 +1,12 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        ::::::::            */
-/*   get_next_line.h                                    :+:    :+:            */
+/*   ft_get_next_line.h                                 :+:    :+:            */
 /*                                                     +:+                    */
 /*   By: jandre-d <jandre-d@student.codam.nl>         +#+                     */
 /*                                                   +#+                      */
 /*   Created: 2019/01/19 10:48:53 by jandre-d       #+#    #+#                */
-/*   Updated: 2019/04/29 20:21:05 by jandre-d      ########   odam.nl         */
+/*   Updated: 2019/07/09 14:05:46 by jandre-d      ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,7 +15,7 @@
 # define BUFF_SIZE 42
 # include <unistd.h>
 # include <stdlib.h>
-# include "libft.h"
+# include "../libft.h"
 
 typedef struct			s_fd_list
 {
@@ -25,6 +25,6 @@ typedef struct			s_fd_list
 	struct s_fd_list	*next;
 }						t_fd_list;
 
-int						get_next_line(const int fd, char **line);
+int						ft_get_next_line(const int fd, char **line);
 
 #endif

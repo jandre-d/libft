@@ -1,16 +1,16 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        ::::::::            */
-/*   get_next_line.c                                    :+:    :+:            */
+/*   ft_get_next_line.c                                 :+:    :+:            */
 /*                                                     +:+                    */
 /*   By: jandre-d <jandre-d@student.codam.nl>         +#+                     */
 /*                                                   +#+                      */
 /*   Created: 2019/01/19 10:48:57 by jandre-d       #+#    #+#                */
-/*   Updated: 2019/03/20 12:13:52 by jandre-d      ########   odam.nl         */
+/*   Updated: 2019/07/09 14:06:14 by jandre-d      ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "get_next_line.h"
+#include "ft_get_next_line.h"
 
 static t_fd_list	*get_fd_elem(int fd, t_fd_list **list)
 {
@@ -102,7 +102,7 @@ static int			load_from_buffer(char **line, t_fd_list *elem,
 	}
 }
 
-int					get_next_line(int fd, char **line)
+int					ft_get_next_line(int fd, char **line)
 {
 	static	t_fd_list	*list;
 	t_fd_list			*elem;

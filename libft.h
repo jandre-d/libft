@@ -6,7 +6,7 @@
 /*   By: jandre-d <jandre-d@student.codam.nl>         +#+                     */
 /*                                                   +#+                      */
 /*   Created: 2019/04/30 16:26:13 by jandre-d       #+#    #+#                */
-/*   Updated: 2019/04/30 17:32:27 by jandre-d      ########   odam.nl         */
+/*   Updated: 2019/07/09 14:06:06 by jandre-d      ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,7 +14,7 @@
 # define LIBFT_H
 
 # include "includes/libft_base.h"
-# include "includes/get_next_line.h"
+# include "includes/ft_get_next_line.h"
 # include "includes/ft_printf.h"
 
 #endif

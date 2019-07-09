@@ -6,7 +6,7 @@
 #    By: jandre-d <jandre-d@student.codam.nl>         +#+                      #
 #                                                    +#+                       #
 #    Created: 2019/01/09 10:02:55 by jandre-d       #+#    #+#                 #
-#    Updated: 2019/04/30 16:27:10 by jandre-d      ########   odam.nl          #
+#    Updated: 2019/07/09 14:06:33 by jandre-d      ########   odam.nl          #
 #                                                                              #
 # **************************************************************************** #
 
@@ -43,7 +43,7 @@ DIR_GET_NEXT_LINE = \
 	$(DIR_SRC)
 
 FILES_GET_NEXT_LINE = \
-	get_next_line
+	ft_get_next_line
 
 C_FILES_GET_NEXT_LINE = \
 	$(addprefix $(DIR_GET_NEXT_LINE), $(FILES_GET_NEXT_LINE:=.c))
