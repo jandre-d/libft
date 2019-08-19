@@ -1,12 +1,12 @@
 # **************************************************************************** #
 #                                                                              #
 #                                                         ::::::::             #
-#    Makefile                                           :+:    :+:             #
+#    makefile                                           :+:    :+:             #
 #                                                      +:+                     #
 #    By: jandre-d <jandre-d@student.codam.nl>         +#+                      #
 #                                                    +#+                       #
 #    Created: 2019/01/09 10:02:55 by jandre-d       #+#    #+#                 #
-#    Updated: 2019/07/09 14:06:33 by jandre-d      ########   odam.nl          #
+#    Updated: 2019/08/18 21:30:48 by jandre-d      ########   odam.nl          #
 #                                                                              #
 # **************************************************************************** #
 
@@ -89,7 +89,7 @@ ALL_O_FILES = \
 
 
 $(NAME):
-	gcc -c -Wall -Wextra -Werror $(ALL_C_FILES) -I $(DIR_INCLUDES) -I.
+	gcc -c -Wall -Wextra -Werror $(ALL_C_FILES) -I $(DIR_INCLUDES)
 	ar rc $(NAME) $(ALL_O_FILES)
 	ranlib $(NAME)
 

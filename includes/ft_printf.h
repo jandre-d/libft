@@ -6,7 +6,7 @@
 /*   By: jandre-d <jandre-d@student.codam.nl>         +#+                     */
 /*                                                   +#+                      */
 /*   Created: 2019/04/06 12:29:23 by jandre-d       #+#    #+#                */
-/*   Updated: 2019/07/09 14:04:44 by jandre-d      ########   odam.nl         */
+/*   Updated: 2019/08/18 21:15:22 by jandre-d      ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,7 +16,7 @@
 # include <stdbool.h>
 # include <stdarg.h>
 # include <unistd.h>
-# include "../libft.h"
+# include "libft.h"
 
 typedef struct	s_pf_output
 {

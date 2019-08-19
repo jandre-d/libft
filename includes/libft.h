@@ -1,17 +1,19 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        ::::::::            */
-/*   libft_base.h                                       :+:    :+:            */
+/*   libft.h                                            :+:    :+:            */
 /*                                                     +:+                    */
 /*   By: jandre-d <jandre-d@student.codam.nl>         +#+                     */
 /*                                                   +#+                      */
-/*   Created: 2019/01/09 10:01:59 by jandre-d       #+#    #+#                */
-/*   Updated: 2019/04/30 16:07:12 by jandre-d      ########   odam.nl         */
+/*   Created: 2019/04/30 16:26:13 by jandre-d       #+#    #+#                */
+/*   Updated: 2019/08/18 21:16:56 by jandre-d      ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
-#ifndef LIBFT_BASE_H
-# define LIBFT_BASE_H
+#ifndef LIBFT_H
+# define LIBFT_H
+# include "ft_get_next_line.h"
+# include "ft_printf.h"
 # include <string.h>
 
 typedef struct		s_list

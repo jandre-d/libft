@@ -6,7 +6,7 @@
 /*   By: jandre-d <jandre-d@student.codam.nl>         +#+                     */
 /*                                                   +#+                      */
 /*   Created: 2019/01/19 10:48:53 by jandre-d       #+#    #+#                */
-/*   Updated: 2019/07/09 16:50:34 by jandre-d      ########   odam.nl         */
+/*   Updated: 2019/08/18 21:15:12 by jandre-d      ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,7 +15,7 @@
 # define BUFF_SIZE 42
 # include <unistd.h>
 # include <stdlib.h>
-# include "../libft.h"
+# include "libft.h"
 
 typedef struct			s_fd_list
 {
